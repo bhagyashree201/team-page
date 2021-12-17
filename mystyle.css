@@ -10,7 +10,6 @@
 .clear-fix:after {
     display: block;
     clear: both;
-    
 }
 
 .img-responsive {
@@ -258,24 +257,28 @@
 
 .section-title {
     text-align: center;
-    padding-bottom:30px;
-
+    padding-bottom: 30px;
 }
 
-.container{
-    
-    display:grid;
-    justify-content:space-evenly;
-    padding-bottom:40px; 
+.container {
+    display: grid;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
 }
 
-.section{ 
-    margin:auto;
-    display:flex;
-flex-wrap: wrap;
-flex-direction: row;}
-
-.people{
-    padding-right:50px;
+.section {
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.people {
+    padding-right: 0px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.heading {
+    font-size: 200%;
 }
