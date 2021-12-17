@@ -10,7 +10,7 @@
 .clear-fix:after {
     display: block;
     clear: both;
-    content: '';
+    
 }
 
 .img-responsive {
@@ -21,7 +21,7 @@
 .card__collection {
     position: relative;
     display: block;
-    background: rgba(10, 10, 10, .5);
+    background: rgba(10, 26, 83, 0.5);
     padding: 10px;
     font-family: 'Do Hyeon', sans-serif;
     overflow: hidden;
@@ -37,11 +37,11 @@
     position: relative;
     overflow: hidden;
     background-position: center;
-    margin: 10px;
+    margin: auto;
 }
 
 .card__collection .cards--one {
-    backface-visiblility: hidden;
+    backface-visibility: hidden;
 }
 
 .card__collection .cards--one:hover:after {
@@ -254,4 +254,28 @@
 
 .card__collection .cards--two ul li:nth-child(4) {
     transition-delay: 0.4s;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom:30px;
+
+}
+
+.container{
+    
+    display:grid;
+    justify-content:space-evenly;
+    padding-bottom:40px; 
+}
+
+.section{ 
+    margin:auto;
+    display:flex;
+flex-wrap: wrap;
+flex-direction: row;}
+
+.people{
+    padding-right:50px;
+    margin: auto;
 }
