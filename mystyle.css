@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+.container{
+    background-image: url("images/background.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
 .clear-fix:after {
     display: block;
     clear: both;
@@ -24,6 +29,7 @@
     padding: 10px;
     font-family: 'Do Hyeon', sans-serif;
     overflow: hidden;
+    margin:auto;
 }
 
 .card__collection .cards {
@@ -40,7 +46,7 @@
 }
 
 .card__collection .cards--one {
-    backface-visibility: hidden;
+    backface-visibility:hidden;
 }
 
 .card__collection .cards--one:hover:after {
@@ -258,6 +264,8 @@
 .section-title {
     text-align: center;
     padding-bottom: 30px;
+    color:antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -280,5 +288,5 @@
 }
 
 .heading {
-    font-size: 200%;
+    font-size: 45px;
 }
